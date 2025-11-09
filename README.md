@@ -12,7 +12,7 @@ Those of us who create code with following objectives
 - frequently update the code logic and share (nothing legacy about that)
 - Not create any temp files that can expose the logic
 
----
+
 ## How it works
 
 ![Project Overview](resources/diagram.png)
@@ -24,14 +24,14 @@ which can compromise both **security and privacy**.
 
 This project keeps everything local — **no third-party obfuscators required**.
 
----
+
 
 
 
 ## 🧠 Summary
 
 | Feature | Plain Python | PyInstaller | Encrypted Executor |
-|----------|---------------|--------------|--------------------|
+|-||--|--|
 | Protected Source Code | ❌ | ✅ | ✅ |
 | Authenticity | ❌ | ✅ | ✅ |
 | File Size | ✅ Small | Huge | ✅ Small |
@@ -41,19 +41,19 @@ This project keeps everything local — **no third-party obfuscators required**.
 
 
 
----
+
 
 ## why not PyInstaller?
 
 | Problem with PyInstaller | This Project’s Advantage |
-|---------------------------|---------------------------|
+|||
 | Produces executables ≥ 10 MB | Tiny encrypted script files |
 | Slow startup | Instant script execution |
 | Incompatible with ARM-based Windows | Works on any system running Python |
 | Large libraries inflate size | Only encrypted code changes — no rebuild needed |
 | Takes time to generate executables | Simply swap the encrypted file to upgrade |
 
----
+
 
 
 ## 📦 Distribution Made Simple
@@ -69,7 +69,7 @@ They’re lightweight, email-friendly, and easy to update - by swapping the file
 Can easily reproduce  the original python file, encrypted python file, exe file by same encryption key.
 
 
----
+
 
 ## ⚠️ Limitations   
 
